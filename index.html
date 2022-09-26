@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anaya</title>
+    <link rel="icon" type="image/jpg" href="Imagenes/icono1.jpg">
+    <script src="Anaya.js" async></script>
+    <link rel="stylesheet" href="Anaya.css">
+</head>
+
+<body>
+    <section class="contenedor">
+        <section class="contenedor1">
+            <section class="contenedorLogo">
+                <img id="logo" src="Imagenes/logo Xarxatec.jpg" alt="logo">
+            </section>
+            <section class="redesSociales">
+                <a class="redes" href="https://www.facebook.com" target="-blank">Facebook</a>
+                <a class="redes1" href="https://www.instagram.com" target="-blank">Instagram</a>
+                <a class="redes1" href="https://www.google.com" target="-blank">Google </a>
+            </section>
+
+            <section class=contenedor2>
+                <img class="imgAula" src="Imagenes/Imagen3.jpg" alt="imgAula">
+            </section>
+                    </section>
+
+        <section class="contenedorLista">
+            <h1> Lista de estudiantes</h1>
+            <img class="imgEstudiantes" src="Imagenes/Lista de estudiantes.jpg">
+
+        </section>
+        <section class="puntosTotales">
+            <section class="contenedor5">
+                <img id="Imagen4" src="Imagenes/Imagen4.jpg">
+                <p>Listado de estudiantes</p>
+                <select id="EstudianteSeleccionado" class="opcion">
+                    <option disabled selected value> -- Seleccione una opción -- </option>
+                    <option value="1">Carla Díaz Jiménez</option>
+                    <option value="2">Miguel Graham González</option>
+                    <option value="3">Ana Cristina Mota Justiniano</option>
+                    <option value="4">Gregorio Acedo Benítez</option>
+                    <option value="5">Arantxa Troncho Soler</option>
+                    <option value="6">Alba Rueda Maldonado</option>
+                    <option value="7">Eliannys Cermeño</option>
+                </select>
+                <section>
+                    <p>Puntuación</p>
+                    <select id="PuntosSeleccionados" class="opcion1">
+                        <option disabled selected value> -- Seleccione una opción -- </option>
+                        <option value="25">25 puntos</option>
+                        <option value="50">50 puntos</option>
+                        <option value="75">75 puntos</option>
+                        <option value="100">100 puntos</option>
+                    </select>
+                </section>
+
+                <section>
+                    <p>Puntos totales: <span id="TotalPuntos">1000</span></p>
+                </section>
+
+                <section>
+                    <p class="parrafo"> Puntos del estudiante: <span id="PuntosDelEstudiante"></span> </p>
+                </section>
+
+                <section>
+                    <p>Puntos otorgados: <span id="PuntosOtorgados">0</span></p>
+                </section>
+
+                <section>
+                    <section>
+                        <p>Quedan: <span id="PuntosRestantes">1000</span></p>
+                    </section>
+                    <section class="contenedorBotones">
+                    <button id="boton" type="submit">Otorgar puntos</button>
+                        <button id="boton1" type="submit">Atrás</button>
+                    </section>
+                </section>
+            </section>
+
+        </section>
+    </section>
+</body>
